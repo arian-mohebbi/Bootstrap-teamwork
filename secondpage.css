@@ -18,6 +18,7 @@
 .nav-link {
     font-family: "Roboto", serif;
     font-weight: 500;
+    color: #696e77;
 }
 .dropdown-menu {
     font-family: "Roboto", serif;
@@ -27,6 +28,9 @@
 /* .dropdown .dropdown-menu:hover {
     transform: translateY(-20px);
 } */
+.dropdown-item:hover {
+    color: #015FC9;
+}
 .nav-link:hover {
     color: #015FC9;
 }
@@ -39,11 +43,49 @@
     font-weight: 570;
 }
 .card-title {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 50px;
     font-weight: 700;
     font-size: 50px;
 }
-.card {
+.card-img {
     height: 300px;
+}
+.menunav {
+    list-style: none;
+   
+}
+.itemnav {
+    color:  #696e77;
+    text-decoration: none;
+    font-family:"Roboto", serif;
+    font-weight: 450;
+}
+.itemnav:hover {
+    color: #015FC9;
+}
+.itemnav1 {
+    color:  #696e77;
+    text-decoration: none;
+    font-family:"Roboto", serif;
+    font-weight: 450;
+}
+.card-header {
+    width: 150px;
+    height: 150px;
+
+}
+.image2 {
+    margin-top: 100px;
+}
+.cardblue {
+    border: 15px solid white !important;
+    border-radius: 10px;
+    left: 150px;
+}
+.cardgray {
+    margin-left: 200px;
+}
+.parablue {
+    padding-right: 100px;
 }
