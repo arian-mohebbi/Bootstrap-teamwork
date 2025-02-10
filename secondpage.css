@@ -23,13 +23,16 @@
 .dropdown-menu {
     font-family: "Roboto", serif;
     font-weight: 500;
-    /* transition: all 0.3s ease-in; */
+    transition: all 0.3s ease-in-out;
+   
 }
-/* .dropdown .dropdown-menu:hover {
-    transform: translateY(-20px);
-} */
 .dropdown-item:hover {
     color: #015FC9;
+}
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(20px);
 }
 .nav-link:hover {
     color: #015FC9;
@@ -95,4 +98,25 @@
 }
 .number {
     padding-top: 100px;
+}
+.number1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.card1 {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.card1:hover{
+    transform: translateY(-70px);
+}
+.icon1 {
+    display: none;
+}
+.card1:hover .icon1 {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     padding-top: 10px;
+     color: white;
 }
