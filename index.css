@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@356&family=Roboto:wght@100..900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  overflow-x: hidden;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* متغیر های رنگ */
+:root {
+  --background-color: #e6e8dd;
+  --header-bg: #2d6a4f;
+  --white: #ffffff;
+  --button-bg: #d27d0c;
+  --button-hover: #a35d26;
+  --text-color: #374731;
+  --border-color: #b8860b;
+  --card-bg: #ffffff;
+}
+/* H tags font */
+.poppins-font {
+  font-family: "Poppins", serif;
+}
+
+.starting-logo {
+  width: 150px;
+  height: 60px;
+}
+/* استایل باتن کروسل ها */
+.btn-style {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--button-bg);
+  border: 15px solid var(--button-bg);
+  border-radius: 50%;
+}
+/* استایل سکشن اول */
+.first-cards .card-body img {
+  width: 90px;
+  height: 90px;
+  border: 14px solid var(--border-color);
+}
+.first-cards .card-body .title {
+  position: relative;
+  left: -48px;
+}
+
+.first-cards .card-body {
+  box-shadow: 0px 0px 48px 12px #dddddd3d;
+}
+/* استایل سکشن دوم */
+.form img {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+.form {
+  color: var(--header-bg);
+}
+.form-input,
+.num-parent {
+  background-color: var(--header-bg);
+  color: var(--header-bg);
+}
+/* استایل سکشن سوم */
+.second-cards .card-body img {
+  width: 100%;
+  height: auto;
+}
+.second-cards .card-body {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 48px 12px #dddddd3d;
+}
+/* افکت سکشن سوم */
+.second-cards .title-hidden {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(50%);
+  background-color: white;
+  transition: all 0.4s ease-out;
+}
+.second-cards .card-body:hover .title-hidden {
+  transform: translateY(0);
+  opacity: 1;
+}
+/* افکت تصاویر کارت های سکشن سوم */
+.card-image {
+  transition: all 0.4s;
+}
+.second-cards .card-body:hover .card-image {
+  transform: scale(1.1);
+}
+/* استایل سکشن آخر (سه اسلاید) */
+.abu-box2 img {
+  width: 100px;
+  height: 100px;
+}
+.abu-box,
+.abu-box2 {
+  height: 421px;
+}
+.abu-box2 .carousel-item {
+  min-height: 376px;
+}
+.abu-box img {
+  border: dashed 1.5px var(--border-color);
+}
+.img1 {
+  top: 40px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+}
+.img2 {
+  bottom: 150px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+.img3 {
+  bottom: 50px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
+/* استایل فووتر */
+footer {
+  background-color: var(--header-bg);
+}
+#newsletter1 {
+  background-color: var(--header-bg);
+}
+footer .form-control::placeholder {
+  color: var(--card-bg);
+}
+.copyright {
+  border-top: var(--button-bg) 0.5px solid;
+}
+footer {
+  color: var(--white);
+}
+footer h5 {
+  color: var(--button-bg);
+}
+footer .nav-link {
+  color: var(--white);
+}
+footer .nav-link:hover {
+  color: var(--button-bg);
+}
+.copyright a:hover {
+  color: var(--white);
+}
+/* استایل دکمه ها */
+.btn-primary {
+  background-color: var(--button-bg);
+  border-color: var(--button-bg);
+}
+.btn-primary:hover {
+  background-color: var(--button-hover);
+  border-color: var(--button-hover);
+}
+.btn-outline {
+  border: 1px solid var(--button-bg);
+  color: var(--button-bg);
+}
+.btn-outline:hover {
+  background-color: var(--button-hover);
+  color: var(--white);
+}
+.back-top {
+  bottom: 40px;
+  right: 30px;
+}
+/* استایل نووبار */
+.navbar {
+  background-color: var(--header-bg) !important;
+}
+header .navbar a {
+  color: var(--white) !important;
+}
+header .navbar a:hover {
+  color: var(--button-hover) !important;
+}
+.dropdown-menu .dropdown-item {
+  color: var(--button-bg) !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: var(--white) !important;
+  background-color: var(--button-bg);
+}
+.color-aj {
+  color: var(--button-bg);
+  text-decoration: none;
+}
+.card-body {
+  background-color: var(--white);
+  color: var(--text-color);
+}
+.card {
+  background-color: transparent;
+}
+@media (min-width: 1200px) {
+  .carousel-caption h2 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero .carousel-item {
+    height: 450px !important;
+  }
+
+  .hero .carousel-item img {
+    height: 100% !important;
+  }
+}
