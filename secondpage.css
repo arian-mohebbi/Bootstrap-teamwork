@@ -2,23 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .nav1 {
     font-size: 16px;
-    background-color: #15233c !important;
+    background-color: #a27d0c !important;
     color: #FFFFFF80;
+}
+.nav2 {
+    background-color: #2d6a4f;
 }
 .logo {
     height: 60px;
     width: 60px;
 }
 .navbar-nav {
-    background-color: #F6F7FC;
-    border: 1px solid #F6F7FC;
-    border-radius: 10px;
     margin-left: 250px;
 }
 .nav-link {
     font-family: "Roboto", serif;
     font-weight: 500;
-    color: #696e77;
+    color: white;
 }
 .dropdown-menu {
     font-family: "Roboto", serif;
@@ -27,15 +27,20 @@
    
 }
 .dropdown-item:hover {
-    color: #015FC9;
+    color: #a35d26;
 }
-.dropdown:hover .dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    transform: translateY(20px);
+.btn {
+    background-color: #d27d0c;
+}
+.btn:hover {
+    background-color: #a35d26;
+}
+.menuitem {
+    font-size: 70px;
+    padding-top: 150px !important;
 }
 .nav-link:hover {
-    color: #015FC9;
+    color: #a35d26;
 }
 .header1 {
     font-family: "Roboto", serif;
@@ -51,46 +56,47 @@
     font-weight: 700;
     font-size: 50px;
 }
-.card-img {
-    height: 300px;
-}
 .menunav {
     list-style: none;
    
 }
 .itemnav {
-    color:  #696e77;
-    text-decoration: none;
     font-family:"Roboto", serif;
     font-weight: 450;
 }
 .itemnav:hover {
-    color: #015FC9;
-}
-.itemnav1 {
-    color:  #696e77;
-    text-decoration: none;
-    font-family:"Roboto", serif;
-    font-weight: 450;
+    color: #a35d26 !important;
 }
 .card-header {
     width: 150px;
     height: 150px;
-
 }
 .image2 {
     margin-top: 100px;
 }
 .cardblue {
-    border: 15px solid white !important;
-    border-radius: 10px;
-    left: 150px;
+    border: 15px solid #374731 !important;
+    left: 230px;
+    background-color: #a27d0c !important;
 }
 .cardgray {
-    margin-left: 200px;
+    margin-left: 100px;
+}
+.paragreen {
+    color: #374731;
 }
 .parablue {
     padding-right: 100px;
+    color: #374731 !important;
+}
+.guid1 {
+    background-color: #2d6a4f;
+}
+.guid2 {
+    background-color: #a27d0c;
+}
+.tour {
+    color: #374731;
 }
 .counter {
     padding-left: 100px;
@@ -103,20 +109,55 @@
     font-weight: 800;
     font-size: 50px;
 }
+.card-group {
+    margin-bottom: 200px !important;
+}
 .card1 {
+    color: #374731;
     transition: all 0.3s ease;
-    overflow: hidden;
+    position: relative;
 }
 .card1:hover{
-    transform: translateY(-70px);
+    transform: translate(0,-30%);
+}
+.card1:hover .cardtext {
+    display: none;
 }
 .icon1 {
     display: none;
+    position: absolute;
+    left: 23%;
 }
 .card1:hover .icon1 {
      display: flex;
      justify-content: center;
      flex-direction: row;
-     padding-top: 10px;
-     color: white;
+}
+.footernav1 {
+    perspective: 600px;
+}
+.footernav2 {
+    transition: all 0.5s ease;
+    transform-origin: left;
+}
+.footernav2:hover {
+    transform: rotatey(-10deg) scale(1.1);
+    color: white;
+}
+.footer1 {
+    background-color: #2d6a4f;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #e6e8dd;
+}
+.us, .hr {
+    color: #d27d0c;
+}
+.btn-outline {
+    color: #d27d0c !important;
+}
+.foot {
+    gap:700px;
 }
