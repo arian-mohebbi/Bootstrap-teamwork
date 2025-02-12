@@ -126,7 +126,7 @@
 .icon1 {
     display: none;
     position: absolute;
-    left: 23%;
+    left: 30%;
 }
 .card1:hover .icon1 {
      display: flex;
