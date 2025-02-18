@@ -109,29 +109,27 @@
     font-weight: 800;
     font-size: 50px;
 }
-.card-group {
-    margin-bottom: 200px !important;
+.img1, .img2 {
+    width: 5rem;
+    height: 6rem;
 }
-.card1 {
-    color: #374731;
-    transition: all 0.3s ease;
-    position: relative;
-}
-.card1:hover{
-    transform: translate(0,-30%);
-}
-.card1:hover .cardtext {
-    display: none;
+.img3 {
+    height: 64px;
+    width: 64px;
 }
 .icon1 {
-    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
     position: absolute;
-    left: 30%;
+    transform: translateY(30%);
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
-.card1:hover .icon1 {
-     display: flex;
-     justify-content: center;
-     flex-direction: row;
+.card-body:hover .icon1 {
+  opacity: 1;
+    transform: translateY(0);
 }
 .footernav1 {
     perspective: 600px;
@@ -160,4 +158,7 @@ body {
 }
 .foot {
     gap:700px;
+}
+.footerpara {
+    width: 15rem;
 }
