@@ -1,0 +1,87 @@
+body {
+  background-color: #e6e8dd;
+  color: #374731;
+  line-height: 1.7rem;
+}
+::first-letter {
+  text-transform: capitalize;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.navbar {
+  background-color: #2d6a4f !important;
+}
+header .navbar a {
+  color: #ffffff !important;
+}
+header .navbar a:hover {
+  color: #a35d26 !important;
+}
+.dropdown-menu .dropdown-item {
+  color: #d27d0c !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #d27d0c;
+}
+.carousel-item img {
+  width: 1000px;
+  height: 450px;
+}
+#outline {
+  background-color: #2d6a4f;
+}
+.title {
+  color: #d27d0c;
+}
+.tel {
+  color: #2d6a4f;
+}
+.btn-primary {
+  background-color: #d27d0c;
+  border-color: #d27d0c;
+}
+.btn-primary:hover {
+  background-color: #a35d26;
+  border-color: #a35d26;
+}
+.btn-outline {
+  border: 1px solid #d27d0c;
+  color: #d27d0c;
+}
+.btn-outline:hover {
+  background-color: #a35d26;
+  color: #ffffff;
+}
+.back-top {
+  bottom: 40px;
+  right: 30px;
+}
+footer {
+  background-color: #2d6a4f;
+  color: #ffffff;
+}
+footer .form-control::placeholder {
+  color: #ffffff;
+}
+footer h5 {
+  color: #d27d0c;
+}
+footer .link {
+  color: #ffffff;
+}
+footer .link:hover {
+  color: #d27d0c;
+}
+.copyright {
+  border-top: #d27d0c 0.5px solid;
+}
+.copyright a:hover {
+  color: #ffffff;
+}
+.linkcolor {
+  color: #d27d0c;
+  text-decoration: none;
+}
