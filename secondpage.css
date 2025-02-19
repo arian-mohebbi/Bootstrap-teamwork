@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    width: 100%;
+    background-color: #e6e8dd;
+    overflow-x: hidden;
+}
+.nav1 {
+    font-size: 16px;
+    background-color: #a27d0c !important;
+    color: #FFFFFF80;
+}
+.nav2 {
+    background-color: #2d6a4f;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+.nav-link {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    color: white;
+}
+.dropdown-menu {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+   
+}
+.dropdown-item:hover {
+    color: #a35d26;
+}
+.btn {
+    background-color: #d27d0c;
+}
+.btn:hover {
+    background-color: #a35d26;
+}
+.menuitem {
+    font-size: 70px;
+    padding-top: 150px !important;
+}
+.nav-link:hover {
+    color: #a35d26;
+}
+.header1 {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+}
+.navbar-brand {
+    font-family: "Poppins", serif;
+    font-weight: 570;
+}
+.card-title {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.menunav {
+    list-style: none;
+   
+}
+.itemnav {
+    font-family:"Roboto", serif;
+    font-weight: 450;
+}
+.itemnav:hover {
+    color: #a35d26 !important;
+}
+.card-header {
+    width: 150px;
+    height: 150px;
+}
+.image2 {
+    margin-top: 100px;
+}
+.cardblue {
+    border: 15px solid #374731 !important;
+    left: 230px;
+    background-color: #a27d0c !important;
+}
+.cardgray {
+    margin-left: 100px;
+}
+.paragreen {
+    color: #374731;
+}
+.parablue {
+    padding-right: 100px;
+    color: #374731 !important;
+}
+.guid1 {
+    background-color: #2d6a4f;
+}
+.guid2 {
+    background-color: #a27d0c;
+}
+.tour {
+    color: #374731;
+}
+.counter {
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.number1 {
+    font-weight: 800;
+    font-size: 49px;
+}
+.img1, .img2 {
+    width: 5rem;
+    height: 6rem;
+}
+.img3 {
+    height: 64px;
+    width: 64px;
+}
+.icon1 {
+    opacity: 0;
+    transition: all 0.3s ease;
+    position: absolute;
+    transform: translateY(30%);
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.card-body:hover .icon1 {
+  opacity: 1;
+    transform: translateY(0);
+}
+.footernav1 {
+    perspective: 600px;
+}
+.footernav2 {
+    transition: all 0.5s ease;
+    transform-origin: left;
+}
+.footernav2:hover {
+    transform: rotatey(-10deg) scale(1.1);
+    color: white;
+}
+.footer1 {
+    background-color: #2d6a4f;
+}
+.us, .hr {
+    color: #d27d0c;
+}
+.btn-outline {
+    color: #d27d0c !important;
+}
+.foot {
+    gap:700px;
+}
+.footerpara {
+    width: 15rem;
+}
